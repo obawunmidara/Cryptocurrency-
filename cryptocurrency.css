@@ -1,0 +1,235 @@
+.circle{
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.main-part{
+    background-color: #f7f9f6;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+.profile-pic{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.profile{
+    display: flex;
+    gap: 20px;
+}
+.name{
+    line-height: 1px;
+}
+header{
+    display: flex;
+    gap: 60px;
+}
+.wallet{
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 600;
+    font-size: 13px;
+}
+.currency{
+     color: rgba(0, 0, 0, 0.4);
+}
+.visa{
+    width: 70px;
+}
+.first-line{
+    display: flex;
+    gap: 75px;
+}
+.available{
+    display: flex;
+    gap: 5px;
+}
+.beginning{
+    /* margin: 30px; */
+    margin-top: 20px;
+    padding: 18px;
+    background: linear-gradient(to right, #def5fb 20%, #dcecfa 80%);
+    border-radius: 10px;
+}
+.money{
+    font-size: 30px;
+    font-weight: 600;
+}
+.balance{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+}
+.money-coloumn{
+    margin-top: 10px;
+}
+.pnloftheday{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+}
+.percent{
+    color: rgb(36, 231, 36);
+    font-weight: 500;
+}
+.pnl{
+    margin-top: 10px;
+}
+.account{
+    display: flex;
+    gap: 75px;
+    margin-top: 40px;
+}
+.number{
+    font-weight: 500;
+    font-size: 18px;
+}
+.credit{
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+.balance-main{
+    margin: 20px;
+}
+.top{
+    display: flex;
+    gap: 175px;
+    margin-top: 20px;
+}
+.see-all{
+    color: rgba(0, 0, 0, 0.4);
+}
+.top-crypto{
+    font-weight: 500;
+}
+.btc-logo{
+    width: 30px;
+}
+.bit{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+.btc-section{
+    line-height: 2px;
+}
+.btc{
+    text-align: left;
+    align-items: left;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.coins{
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+.bitcoin-section{
+    display: flex;
+    gap: 17px;
+}
+.latest-price{
+    line-height: 10px;
+    display: flex;
+    gap: 30px;
+}
+.coin-percent{
+    display: flex;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.latest{
+    font-size: 11px;
+    color:  rgba(0, 0, 0, 0.7);
+}
+.price{
+    font-size: 16px;
+}
+.btn{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buy{
+    background-color: rgb(12, 64, 88);
+    padding: 12px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+.coin-main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    overflow-x: auto;
+}
+.send{
+    background-color:white;
+    padding: 15px;
+    border: 1px solid rgb(107, 164, 248);
+    color: rgb(107, 164, 248);
+    border-radius: 4px;
+}
+.option-container{
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    column-gap: 5px;
+    margin: 20px;
+}
+.line1{
+    display: flex;
+    gap: 160px;
+}
+.payment{
+    display: flex;
+    gap: 8px;
+}
+.btc-logo-container{
+    margin-top: 10px;
+}
+.transaction-body{
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.individual-transactions{
+    display: flex;
+    gap: 50px;
+    background-color: #f7f9f6;
+    padding: 15px;
+    margin: 20px;
+}
+.price1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+}
+.name-container{
+    line-height: 3px;
+}
+.time{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.name{
+    font-size: 17px;
+}
+.transaction-column{
+    background-color: #fff;
+    padding-top: 20px;
+}
