@@ -242,9 +242,9 @@ header{
 }
 .eth-section{
     display: flex;
-    gap: 15px;
+    gap: 14px;
 }
 .xrp-section{
     display: flex;
-    gap: 47px;
+    gap: 43px;
 }
