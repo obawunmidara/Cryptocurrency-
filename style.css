@@ -146,7 +146,7 @@ header{
 .latest-price{
     line-height: 10px;
     display: flex;
-    gap: 30px;
+    gap: 25%;
 }
 .coin-percent{
     display: flex;
@@ -154,7 +154,7 @@ header{
     font-size: 13px;
 }
 .latest{
-    font-size: 11px;
+    font-size: 10px;
     color:  rgba(0, 0, 0, 0.7);
 }
 .price{
@@ -176,7 +176,7 @@ header{
 }
 .coin-main{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 200px 200px 200px;
     column-gap: 20px;
     overflow-x: auto;
 }
@@ -190,12 +190,13 @@ header{
 .option-container{
     display: grid;
     grid-template-columns: 90px 90px 90px;
-    column-gap: 5px;
-    margin: 20px;
+    column-gap: 10px;
+    margin: 40px;
 }
 .line1{
     display: flex;
     gap: 160px;
+    margin-left: 6vw;
 }
 .payment{
     display: flex;
@@ -211,7 +212,7 @@ header{
 }
 .individual-transactions{
     display: flex;
-    gap: 50px;
+    gap: 70px;
     background-color: #f7f9f6;
     padding: 15px;
     margin: 20px;
@@ -235,4 +236,15 @@ header{
 .transaction-column{
     background-color: #fff;
     padding-top: 20px;
+}
+.eth-logo{
+    width: 12px;
+}
+.eth-section{
+    display: flex;
+    gap: 15px;
+}
+.xrp-section{
+    display: flex;
+    gap: 47px;
 }
