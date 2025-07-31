@@ -48,7 +48,7 @@ header{
 }
 .first-line{
     display: flex;
-    gap: 75px;
+    gap: 30%;
 }
 .available{
     display: flex;
@@ -68,6 +68,9 @@ header{
 .balance{
     color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 .money-coloumn{
     margin-top: 10px;
@@ -86,7 +89,7 @@ header{
 }
 .account{
     display: flex;
-    gap: 75px;
+    gap: 30%;
     margin-top: 40px;
 }
 .number{
